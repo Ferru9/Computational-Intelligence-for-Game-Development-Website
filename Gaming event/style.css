@@ -266,8 +266,42 @@ li{
 
 
 
+/* Circle speaker image*/
+.speaker{
+  width: 100%;
+  height: 30em;
+  position: relative;
+}
 
-
+  .circle-frame1, .circle-frame2, .circle-frame3 {
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-color: tan;
+    background-size: cover;
+    border: 5px solid #FF8181;
+    border-radius: 50%;
+    height: auto;
+    min-width: 20%;
+    left: calc(50% - 10%);
+    padding-top: 20%;
+    position: absolute;
+    margin: auto;
+    display: block;
+  
+  }
+  .circle-frame1{
+    background-image: url(./assets/joey.jpg);
+    top:10%;
+  }
+  .circle-frame2 {
+    background-image: url(./assets/joey.jpg);
+    top:60%;
+    
+  }
+  .circle-frame3 {
+    background-image: url(./assets/joey.jpg);
+    top:110%;
+  }
 
 
 /* general styling */
