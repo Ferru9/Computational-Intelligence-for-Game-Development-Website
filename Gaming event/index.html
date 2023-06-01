@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Game Dev Crash Course</title>
-     <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-     <!--Header-->
-             <!--<title>Responsive Card Slider</title>-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Dev Crash Course</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+  <!--Header-->
+  <!--<title>Responsive Card Slider</title>-->
 
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
@@ -18,111 +20,370 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
   <!-- CDN End -->
-<!--TEST COMMENT-->
+  <!--TEST COMMENT-->
   <header>
 
-     <!--Nav Bar-->
+    <!--Nav Bar-->
     <div class="navbar">
       <div class="logo"><a href="">Logo</a></div>
       <ul class="links">
-        <li><a href="">Home</a></li>
-        <li><a href="">Speakers</a></li>
-        <li><a href="">Topics</a></li>
-        <li><a href="">Schedule</a></li>
-        <li><a href="">Description</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#speaker-section">Speakers</a></li>
+        <li><a href="#topic">Topics</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#about">About & Contact</a></li>
       </ul>
-      <a href="" class="action_btn">Get Your Tickets</a>
+      <a href="https://www.eventbrite.com/e/ieee-summer-school-on-computational-intelligence-for-game-development-tickets-638362498417" class="action_btn">Get Your Tickets</a>
       <div class="toggle_btn">
         <i class="fa-solid fa-bars"></i>
       </div>
     </div>
     <div class="dropdown_menu">
-      <li><a href="">Home</a></li>
-      <li><a href="">Speakers</a></li>
-      <li><a href="">Topics</a></li>
-      <li><a href="">Schedule</a></li>
-      <li><a href="">Description</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#speaker-section">Speakers</a></li>
+      <li><a href="#topic">Topics</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#about">About & Contact</a></li>
 
     </div>
 
-         <!--Hero Banner-->
+    <!--Hero Banner-->
 
-    <div class="hero-banner">
+    <div id="home" class="hero-banner">
 
-     <h1>Computational Intelligence for Game Development</h1>
-     <div class="container">
+      <h1>Computational Intelligence for Game Development</h1>
+      <div class="container">
 
-          <div id="countdown">
-            <ul>
-              <li><span id="days" class="salmon"></span id="gray" >days</li>
-              <li><span id="hours" class="salmon"></span id="gray">Hours</li>
-              <li><span id="minutes" class="salmon"></span id="gray">Minutes</li>
-              <li><span id="seconds" class="salmon"></span id="gray">Seconds</li>
-            </ul>
-          </div>
-          <div id="content" class="emoji">
-            <span>🥳</span>
-            <span>🎉</span>
-            <span>🎂</span>
-          </div>
+        <div id="countdown">
+          <ul>
+            <li><span id="days" class="salmon"></span id="gray">days</li>
+            <li><span id="hours" class="salmon"></span id="gray">Hours</li>
+            <li><span id="minutes" class="salmon"></span id="gray">Minutes</li>
+            <li><span id="seconds" class="salmon"></span id="gray">Seconds</li>
+          </ul>
         </div>
-     <a href="" class="hero_btn">Get your tickets</a>
+        <div id="content" class="emoji">
+          <span>🥳</span>
+          <span>🎉</span>
+          <span>🎂</span>
+        </div>
+      </div>
+      <a href="https://www.eventbrite.com/e/ieee-summer-school-on-computational-intelligence-for-game-development-tickets-638362498417" class="hero_btn">Get your tickets</a>
 
 
     </div>
   </header>
 
-     <!--Speaker Section-->
-     <Section>
+<body>
+  <!--Speaker Section-->
+  <section id="speaker-section" class="speaker">
 
-      <div class="circle-frame1"></div>
-      <div class="circle-frame2"></div>
-      <div class="circle-frame3"></div>
+    <h2 class="speaker-header">Speakers</h2>
+    
 
-     </Section>
-
-
-     <!--Topics Section-->
-
-     <section class="topic">
+    <div class="container-1">
+      <div class="circle-frame1"><div class="speaker-name">Joey</div></div>
+      <div class="circle-frame2"><div class="speaker-name">Joey</div></div>
+      <div class="circle-frame3"><div class="speaker-name">Joey</div></div>
+    </div>
 
 
-  <div class="wrapper"><ul class="mat_list card scrollable">
+  </section>
+
+
+  <!--Topics Section-->
+
+  <section id="topic" class="topic">
+
+
+    <h2 class="topic-header">Topic</h2>
+
+    <div class="container-1">
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
         <div class="mat_list_title">
-          <h1>Topics</h1>
+          <h1>Topic 1</h1>
         </div>
-        <li><a>This one is the Same</a></li>
-        <li><p>Just with a title</p></li>
-        <li><a>Which is just an optional div</a></li>
-        <li><a>So you don't have to spend hours finding out to make one</a></li>
-        <li><a>And the following is even better</a></li>
+          <p>During the session, we'll discuss different types of licenses and explain how to access them, including popular game engines like Unity and Unreal Engine. We'll also provide tips on software setup and how to optimize your workflow. This is a must-attend event for anyone interested in game development or looking to enhance their software skills.
+            Don't miss this chance to discover new tools and software that can help you succeed in the world of game development. Join us to learn about student licenses and software setup with TRUSU Game Dev Club.
+            </p>
+        </li>
+
       </ul>
+    </div>
+
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>GDC Round Table, TRUSU Game Development Club</h1>
+        </div>
+          <p>Join us for an engaging round table discussion on the highly anticipated Game Development Conference (GDC). This session is designed to provide a platform for educators and students to share their experiences and insights from attending GDC. If you've attended the conference in the past, come and share your experiences, tips, and takeaways. For those who haven't yet had the chance to attend, this is the perfect opportunity to ask questions and learn more about what to expect at GDC.</p>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>Basics Of Unity, TRUSU Game Development Club</h1>
+        </div>
+          <p>Join TRUSU Game Development Club for an introduction to Unity, one of the most popular game engines used in the industry. During this session, we'll cover the basics of Unity, including how to set up a new project, how to use the editor interface, and how to create basic game mechanics.
+            If you're new to game development or just getting started with Unity, this is the perfect opportunity to learn the fundamentals of the engine. You'll also have the chance to ask questions and get advice from experienced game developers.</p>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="container-1">
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>Computational Intelligence for Board Game Prototyping, Joseph Brown</h1>
+        </div>
+          <p>Join Joseph Brown for an informative session on using computational intelligence for board game design. You'll learn about how artificial intelligence techniques can help you create engaging and balanced games. Joseph will provide practical examples of how these techniques have been used in popular board games, such as Settlers of Catan and Carcassonne.</p>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>Fundamentals of AI in Unity, Marco Seira</h1>
+        </div>
+          <p>Join Marco Seira for an in-depth exploration of the fundamentals of artificial intelligence (AI) in Unity. During this session, you'll learn how to create intelligent agents and autonomous behaviors for your games using Unity's AI tools. Marco will provide practical examples and demonstrations of how to implement different AI techniques, such as decision-making, pathfinding, and behavior trees.</p>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>3D Printing To Help you Understand Your Designs, TRUSU Game Development Club</h1>
+        </div>
+          <p>Join the TRUSU Game Development Club for a fascinating session on how 3D printing can help you better understand your character designs. During this session, you'll learn how 3D printing can provide you with a tangible model of your design that can be held, examined, and tested. You'll see how a 3D printed model can help you identify design flaws, improve proportions, and ensure that your design works in real life.
+          </p>
+        </li>
+
+      </ul>
+    </div>
   </div>
 
-      
-      
+  <div class="container-1">
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>Music in Games, Can AI Help Developers? Yes, Marco Seira</h1>
+        </div>
+          <p>Join Marco Seira for an exciting session on the role of artificial intelligence (AI) in creating music for games. During this session, you'll learn about the current state of AI-generated music and how it can be used in game development. Marco will provide practical examples of how AI-generated music can help developers create immersive game experiences.
+          </p>
+        </li>
 
-     </section>
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>Game Engine Round Table, TRUSU Game Development Club</h1>
+        </div>
+          <p>Join TRUSU Game Development Club for a round table discussion on game engines. During this session, we'll discuss different game engines and compare their features, capabilities, and drawbacks. This is the perfect opportunity to learn more about the tools available to game developers and to share your experiences with others.</p>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>Computational Intelligence for Procedural Content, Joseph Brown</h1>
+        </div>
+          <p>Discover the latest techniques and algorithms used in game development to generate diverse and engaging content with Joseph Brown. In this session, you'll learn about the role of computational intelligence in creating procedural content for games and how to integrate it into your game development workflow.
+          </p>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="container-1">
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>Game Jam Tips & Tricks, TRUSU Game Development Club</h1>
+        </div>
+          <p>Join the TRUSU Game Development Club for an informative session on game jam tips and tricks. During this session, you'll learn about the essential skills and strategies for participating in a successful game jam.
+          </p>
+        </li>
+
+      </ul>
+    </div>
+    <div class="wrapper">
+      <ul class="mat_list card scrollable">
+        <div class="mat_list_title">
+          <h1>Affordance Theory for Games, Joseph Brown</h1>
+        </div>
+          <p>Join Joseph Brown for an insightful session on the importance of affordance theory in game design. In this session, you'll learn how to use affordances to design games that are intuitive, engaging, and enjoyable for players.</p>
+        </li>
+
+      </ul>
+    </div>
+  </div>
 
 
-     <!--Schedule Section-->
-     <section>
-
-     </section>
+  </section>
 
 
-     <!--Description Section-->
-     <section>
-          
-     </section>
+  <!--Schedule Section-->
+  <section id="schedule" class="schedule">
+    <h2 class="schedule-header">Schedule</h2>
+
+    <div class="container-1">
+    <label class="dropdown">
+
+      <div class="dd-button">
+        Monday
+      </div>
+    
+      <input type="checkbox" class="dd-input" id="test">
+    
+      <ul class="dd-menu">
+        <li>9:00am - 10:00am: Practice</li>
+        <li>10:00am - 11:00am: Student Licenses and Software Set Up </li>
+        <li>11:00am - 12:00pm: Basics Of Unity </li>
+        <li>12:00pm - 1:00pm: Lunch </li>
+        <li>1:00pm - 2:00pm: Basics Of Unity </li>
+        <li>2:00pm - 3:00pm: Basics Of Unity </li>
+        <li>3:00pm - 4:00pm: Break </li>
+        <li>4:00pm - 5:00pm: Basics Of Unity </li>
+        <li>5:00pm - 6:00pm: Game Engine Round Table </li>
+      </ul> 
+    </label>
+
+    <label class="dropdown">
+
+      <div class="dd-button">
+        Tuesday
+      </div>
+    
+      <input type="checkbox" class="dd-input" id="test">
+    
+      <ul class="dd-menu">
+        <li>9:00am - 10:00am: Practice</li>
+        <li>10:00am - 11:00am: Fundamentals of AI in Unity </li>
+        <li>11:00am - 12:00pm: Fundamentals of AI in Unity </li>
+        <li>12:00pm - 1:00pm: Lunch </li>
+        <li>1:00pm - 2:00pm: Fundamentals of AI in Unity </li>
+        <li>2:00pm - 3:00pm: Fundamentals of AI in Unity </li>
+        <li>3:00pm - 4:00pm: Break </li>
+        <li>4:00pm - 5:00pm: Basics Of Blender </li>
+        <li>5:00pm - 6:00pm: Basics Of Blender </li>
+        
+      </ul> 
+    </label>
+
+    <label class="dropdown">
+
+      <div class="dd-button">
+        Wednesday
+      </div>
+    
+      <input type="checkbox" class="dd-input" id="test">
+    
+      <ul class="dd-menu">
+        <li>9:00am - 10:00am: Practice</li>
+        <li>10:00am - 11:00am: GDC Round Table </li>
+        <li>11:00am - 12:00pm: Music in Games, Can AI Help Developers?</li>
+        <li>12:00pm - 1:00pm: Lunch </li>
+        <li>1:00pm - 2:00pm: Music in Games, Can AI Help Developers?</li>
+        <li>2:00pm - 3:00pm: Music in Games, Can AI Help Developers?</li>
+        <li>3:00pm - 4:00pm: Break </li>
+        <li>4:00pm - 5:00pm: Music in Games, Can AI Help Developers?</li>
+        <li>5:00pm - 6:00pm: Game Jam Tips & Tricks Round Table</li>
+      </ul> 
+    </label>
+
+    <label class="dropdown">
+
+      <div class="dd-button">
+        Thursday
+      </div>
+    
+      <input type="checkbox" class="dd-input" id="test">
+    
+      <ul class="dd-menu">
+        <li>9:00am - 10:00am: Practice</li>
+        <li>10:00am - 11:00am: Computational Intelligence for Procedural Content </li>
+        <li>11:00am - 12:00pm: Computational Intelligence for Procedural Content</li>
+        <li>12:00pm - 1:00pm: Lunch </li>
+        <li>1:00pm - 2:00pm: Computational Intelligence for Procedural Content</li>
+        <li>2:00pm - 3:00pm: Computational Intelligence for Procedural Content</li>
+        <li>3:00pm - 4:00pm: Break </li>
+        <li>4:00pm - 5:00pm: Board Game 101</li>
+        <li>5:00pm - 6:00pm: Board Game 101</li>
+      </ul> 
+    </label>
+
+    <label class="dropdown">
+
+      <div class="dd-button">
+        Friday
+      </div>
+    
+      <input type="checkbox" class="dd-input" id="test">
+    
+      <ul class="dd-menu">
+        <li>9:00am - 10:00am: Practice</li>
+        <li>10:00am - 11:00am: Affordance Theory for Games </li>
+        <li>11:00am - 12:00pm: Affordance Theory for Games</li>
+        <li>12:00pm - 1:00pm: Lunch </li>
+        <li>1:00pm - 2:00pm: Affordance Theory for Games</li>
+        <li>2:00pm - 3:00pm: Affordance Theory for Games</li>
+        <li>3:00pm - 4:00pm: Break </li>
+        <li>4:00pm - 5:00pm: Business In Game Development</li>
+        <li>5:00pm - 6:00pm: Business In Game Development</li>
+      </ul> 
+    </label>
+    
+    </div>
+
+  </section>
+
+
+  <!--Description Section-->
+  <section id="about" class="about">
+    <h2 class="desc-header">About & Contact</h2>
+
+    <a href="https://www.facebook.com/TruGDC">
+      <img src="./assets/joey.jpg" alt="Game Development Club" style="width:42px;height:42px;">
+    </a>
+
+    <a href="http://www.trucsclub.ca/">
+      <img src="./assets/compsci-logo" alt="Computer Science Club" style="width:42px;height:42px;">
+    </a>
+
+    <a href="https://trusugaming.ca/">
+      <img src="./assets/gaming-logo" alt="Gaming Club" style="width:42px;height:42px;">
+    </a>
+
+    <a href="https://trusu.ca/">
+      <img src="./assets/TRUSU-logo" alt="TRUSU" style="width:42px;height:42px;">
+    </a>
+
+    <a href="https://www.ieee.org/">
+      <img src="./assets/IEEE_logo.svg.png" alt="IEEE" style="width:42px;height:42px;">
+    </a>
+
+  </section>
 
 
 
 
-
-     
 </body>
-<script src="main.js"></script>
-<script src="countdown.js"></script>
+
+  <script src="main.js"></script>
+  <script src="countdown.js"></script>
 
 </html>
