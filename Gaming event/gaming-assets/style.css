@@ -38,7 +38,7 @@ body {
 header {
   width: 100%;
   height: 90vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/hero-banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./hero-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -347,15 +347,15 @@ header {
 
 
 .circle-frame1 {
-  background-image: url(./assets/joey.jpg);
+  background-image: url(./joey.jpg);
 }
 
 .circle-frame2 {
-  background-image: url(./assets/joey.jpg);
+  background-image: url(./joey.jpg);
 }
 
 .circle-frame3 {
-  background-image: url(./assets/joey.jpg);
+  background-image: url(./joey.jpg);
 } 
 
 @media(max-width:1346px) {
@@ -466,7 +466,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    top: 50%;
+    top: 55%;
     bottom: 0;
     margin: auto;
 
@@ -477,7 +477,7 @@ header {
   }
 
   .container li span {
-    font-size: calc(3.375rem * var(--smaller));
+    font-size: 1.5em;
   }
 }
 
@@ -494,6 +494,8 @@ header {
   text-align: center;
   color: #FF8181;
 }
+
+
 
 
 .topic {
@@ -522,6 +524,7 @@ header {
   border-radius: 0.2rem;
   box-shadow: 0px 0px 0.1rem rgba(0, 0, 0, 0.3), 0px 0.2rem 0.2rem rgba(0, 0, 0, 0.3);
   overflow: auto;
+
 }
 
 .mat_list {
@@ -546,6 +549,11 @@ header {
 .mat_list_title {
   background-color: #cf6060;
   color: white;
+  padding: 0.5em;
+}
+
+.mat_list p{
+  padding: 0.60em;
 }
 
 .mat_list_title[style*="background"] {
@@ -627,7 +635,7 @@ header {
   cursor: pointer;
   white-space: nowrap;
   margin-right: 2em;
-  width: 200px;
+  width: 100%;
 }
 
 .dd-button:hover {
@@ -642,22 +650,36 @@ header {
 .dd-menu {
   position: absolute;
   top: 100%;
+
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 0;
-  margin: 2px 0 0 0;
+  margin: 0 0 0 0;
   box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
   background-color: #ffffff;
   list-style-type: none;
+  z-index: 999;
+  right: 0;
 }
 
 .dd-input + .dd-menu {
   display: none;
 } 
 
-.dd-input:checked + .dd-menu {
+.dd-input:hover + .dd-menu {
   display: block;
 } 
+
+.desktop{
+  display: block;
+}
+
+.mobile{
+  display: none;
+}
+
+
+
 
 .dd-menu li {
   padding: 10px 20px;
@@ -670,16 +692,24 @@ header {
 }
 
 @media(max-width:800px) {
-  .dd-button {
-    display: block;
-    border: 1px solid #FF8181;
-    border-radius: 4px;
-    width: 80%;
-    background-color: #ffffff;
-    cursor: pointer;
-    white-space: nowrap;
-    margin-right: 2em;
+
+  .desktop{
+    display: none;
   }
+
+  .mobile{
+    display: block;
+  }
+
+
+}
+
+
+
+footer {
+  width: 100%;
+  height: 50vh;
+
 
 }
 
