@@ -314,11 +314,37 @@ header {
 }
 
 .speaker-name{
-  margin-top: 20px;
+
   font-size: 2.5em;
   font-weight: 700;
-  color: rgb(47, 8, 51);
+  color: #f6f6f6;
+  display: none;
+  transition: opacity .2s, visibility .2s;
+  
 }
+
+.circle-frame1:hover .speaker-name{
+  
+  display: block;
+  color: rgb(253, 253, 253);
+
+}
+
+.circle-frame2:hover .speaker-name{
+  
+  display: block;
+  color: rgb(253, 253, 253);
+}
+
+.circle-frame3:hover .speaker-name{
+  
+  display: block;
+  color: rgb(253, 253, 253);
+}
+
+
+
+
 
 .circle-frame1 {
   background-image: url(./assets/joey.jpg);
@@ -364,8 +390,8 @@ header {
 
   font-size: 1.5em;
   font-weight: 700;
-  color: rgb(47, 8, 51);
-  margin-top: 120px;
+ 
+
 
 }
 
@@ -480,7 +506,7 @@ header {
 .wrapper {
   width: 500px;
   font-size: 1.5rem;
-  margin: auto;
+  margin: 50px;
   left: calc(50% - 250px);
   margin-bottom: 70px;
 }
@@ -601,6 +627,7 @@ header {
   cursor: pointer;
   white-space: nowrap;
   margin-right: 2em;
+  width: 200px;
 }
 
 .dd-button:hover {
